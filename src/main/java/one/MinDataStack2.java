@@ -8,8 +8,8 @@ public class MinDataStack2 {
     private Stack<Integer> minDataStack;
 
     public MinDataStack2() {
-        dataStack = new Stack<>();
-        minDataStack = new Stack<>();
+        dataStack = new Stack();
+        minDataStack = new Stack();
     }
 
     public void push(int num) {
